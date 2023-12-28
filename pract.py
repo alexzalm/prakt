@@ -21,4 +21,5 @@ for i in range(1, n-1):
             pr = False
         if pr:
             k += 1
+            print(a[i][j], '(', i, ', ', j, ')')
 print('в матрице', k, 'локальных минимумов')
